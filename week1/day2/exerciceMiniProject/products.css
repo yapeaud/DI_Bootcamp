@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* NAVBAR */
+nav{
+    background-color: black;
+    
+}
+.fa-solid{
+    color: white;
+    padding-left: 2em;
+}
+.navbar-items{
+    list-style-type: none;
+    position: sticky;
+    top: 0;
+    position: absolute;
+    top: 35px;
+    margin-left: 60em;
+}
+.navbar-list{
+    display: inline;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    position: relative;
+    left: 40em;
+}
+
+/* CONTENT */
+.bgImg1{
+    background-image: url('/day2/exerciceMiniProject/images/image1.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 20em;
+    left: 20em;
+} 
+.bgImg2{
+    background-image: url('/day2/exerciceMiniProject/images/image2.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 20em;
+    left: 40em;
+}
+.bgImg3{
+    background-image: url('/day2/exerciceMiniProject/images/image3.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 20em;
+    left: 60em;
+}
+.bgImg4{
+    background-image: url('/day2/exerciceMiniProject/images/image4.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 20em;
+    left: 80em;
+}
+.bgSize{
+ background-size: 200px;
+ width: 400px; 
+ height: 400px;
+}
+
+.info1{
+    position: absolute;
+    top: 37em;
+    left: 20em;
+}
+.info2{
+    position: absolute;
+    top: 37em;
+    left: 40em;
+}
+.info3{
+    position: absolute;
+    top: 37em;
+    left: 60em;
+}
+.info4{
+    position: absolute;
+    top: 37em;
+    left: 80em;
+}
+.wording, .btn, .cost{
+    position: relative;
+    left: 2em;
+}
+.wording{
+    padding-top: .5em;
+}
+.cost{
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+.price{
+    color: green;
+    font-size: medium;
+    font-weight: bolder;
+    padding: .5em;
+}
+.across{
+    text-decoration: line-through;
+    color: gray;
+    opacity: 0.7;
+}
+.btn{
+    padding: 5px 10px;
+    color: gray;
+    opacity: .7;
+}
+
+/* FOOTER */
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+.dev-name{
+    padding-left: 50em;
+}

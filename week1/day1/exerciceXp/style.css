@@ -1,0 +1,42 @@
+body{
+    margin: 30px;
+}
+/* THE CATS */
+.bold{
+    font-weight: bold;
+}
+.bg{
+    background-color: yellow;
+}
+.senses{
+    position: relative;
+    left: 100px;
+}
+.title-senses{
+    text-decoration: underline;
+}
+ol{
+    list-style-type: upper-roman;
+}
+.title-media{
+    text-align: center;
+    margin-bottom: 4em;
+}
+img{
+    border: 5px solid orangered;
+    position: relative;
+    left: 300px;
+}
+
+/* THE LIONS */
+.para-lion2{
+    color: red;
+    border: 1px solid red;
+    text-align: center;
+}
+table, th, td {
+    border: 1px solid black;
+  }
+  .img-lion{
+    margin-top: 8em;
+  }

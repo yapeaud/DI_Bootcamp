@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* NAVBAR */
+nav{
+    background-color: black;
+    
+}
+.fa-solid{
+    color: white;
+    padding-left: 2em;
+}
+.navbar-items{
+    list-style-type: none;
+    position: sticky;
+    top: 0;
+    position: absolute;
+    top: 35px;
+    margin-left: 60em;
+}
+.navbar-list{
+    display: inline;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    position: relative;
+    left: 40em;
+}
+
+/* FOOTER */
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+.dev-name{
+    padding-left: 50em;
+}

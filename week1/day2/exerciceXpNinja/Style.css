@@ -1,0 +1,91 @@
+/* GENERAL */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Source Serif Pro', serif;
+}
+
+/* LOGIN */
+#login{
+     position: absolute;
+     top: 10em;
+     left: 20em;   
+}
+.loginTitle{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.remember{
+    color: gray;
+}
+.linkPwd{
+    position: relative;
+    left: 2em;
+    text-decoration: none;
+    color: gray;
+}
+input[type="email"], input[type="password"], input[type="submit"]{
+    padding: 5px 55px;
+}
+.btn{
+    color: white;
+    background-color: purple;
+    font-weight: bold;
+    border: none;   
+}
+.paraChoice{
+    text-align: center;
+    color: grey;
+}
+.symbole{
+    letter-spacing: -2px;
+    
+}
+.symbole .dash{
+    letter-spacing: 2px; margin: 0 5px; 
+}
+.iconsItems{
+    padding-left: 1em;
+    position: relative;
+    left:4em;
+    color: gray;
+}
+.copy{
+    text-align: center;
+    padding-top: 8em;
+    color: gray;
+    font-size: xx-small;
+}
+/* REGISTER */
+#register{
+    width: 20em;
+    height: 24em; 
+    position: absolute;
+     top: 10em;
+     left: 40em;
+     background: linear-gradient(135deg,rgb(45, 1, 45),rgb(151, 1, 151));
+}  
+.register{
+    text-align: center;
+    color: white;
+}
+.fa-user-plus{
+    padding-left: .5em;
+    padding-top: 1em;
+}
+.paraRegister{
+    padding-bottom: 1em;
+}
+.linkRegister{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3em;
+    padding: 5px;
+    margin-top: 1em;
+}
+.fa-circle-arrow-right{
+    padding-left: 1em;
+}
