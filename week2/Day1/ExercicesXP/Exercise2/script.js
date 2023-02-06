@@ -5,7 +5,7 @@ Correcteur: Yannick GOUGUIA
 mavaises reponses a la ligne 7, 8, revoir cet exercice
 *******************************************************************************/
 const myWatchedSeriesLength =(3);
-const myWatchedSeriesSentence =("black mirror, money heist, and the big bang theory");
+const myWatchedSeriesSentence = ["black mirror, money heist, and the big bang theory"];
 console.log('I watched '+myWatchedSeriesLength+ ' series ' +myWatchedSeriesSentence);
 
 // PARTIE 2
